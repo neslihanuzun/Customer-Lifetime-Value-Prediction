@@ -15,7 +15,7 @@ from sklearn.preprocessing import MinMaxScaler
 
 #Verinin Okunması ve Kopyasının oluşturulması
 
-df_ = pd.read_csv(r"C:\Users\lenovo\Desktop\vbo-ml\hafta3\ödevler\FLO_RFM_ANALIZI\FLO_RFM_Analizi\flo_data_20K.csv")
+df_ = pd.read_csv("flo_data_20K.csv")
 df = df_.copy()
 df.describe().T
 df.head()
